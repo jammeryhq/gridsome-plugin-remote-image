@@ -13,11 +13,11 @@ The plugin should work with any data source, but I have tested it only with `sou
 ## Install
 
 ```sh
-npm i @noxify/gridsome-plugin-remote-image
+npm i @jammeryhq/gridsome-plugin-remote-images
 
 # or
 
-yarn add @noxify/gridsome-plugin-remote-image
+yarn add @jammeryhq/gridsome-plugin-remote-images
 ```
 
 ## Setup
@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     //...
     {
-      use: '@noxify/gridsome-plugin-remote-image',
+      use: '@jammeryhq/gridsome-plugin-remote-images',
       options: {
         'typeName' : 'Entry',
         'sourceField': 'remoteImage',
@@ -39,7 +39,7 @@ module.exports = {
       }
     },
     {
-      use: '@noxify/gridsome-plugin-remote-image',
+      use: '@jammeryhq/gridsome-plugin-remote-images',
       options: {
         'typeName' : 'Entry',
         'sourceField': 'remoteImages',
