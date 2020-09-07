@@ -1,26 +1,40 @@
-# Gridsome Remote Image Downloader
+<div align="center">
 
-This is a simple plugin, which is based on a discord discussion.
-It's more a workaround than a permanent solution.
+<a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
 
-The plugin should work with any data source, but I have tested it only with `source-filesystem`.
+  <img src="./jammeryhq.png" width="128" />
+  
+</a>
 
-## Features
+<p>
+Fast-track your JAMstack development & learning
+</p>
+</div>
 
-* Download of remote images
-* Support of multiple images ( see example )
+<hr />
 
-## Install
+# About this plugin
 
-```sh
-npm i @jammeryhq/gridsome-plugin-remote-images
+Simple plugin to download remote images in Gridsome, which enables you to take advantage of Gridsome's native image resizing and optimisation.
+
+## Installation
+
+```bash
+npm install @jammeryhq/gridsome-plugin-remote-images
 
 # or
 
 yarn add @jammeryhq/gridsome-plugin-remote-images
 ```
 
-## Setup
+## Key features
+
+* Download one image ( String field )
+* Download multiple images ( Array fields )
+* Caching
+* Option to keep the original field value
+
+## How to use
 
 ```js
 //gridsome.config.js
